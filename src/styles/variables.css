@@ -1,0 +1,134 @@
+/* ── DARK THEME (default) ── */
+:root,
+[data-theme="dark"] {
+  --bg:            #0a0e1a;
+  --bg-sidebar:    #0d1120;
+  --card:          #111827;
+  --panel:         #0d1424;
+  --editor-bg:     #060a13;
+
+  --primary:       #7C3AED;
+  --primary-hover: #8b5cf6;
+  --pink:          #EC4899;
+  --blue:          #3B82F6;
+  --cyan:          #22D3EE;
+
+  --text:          #F9FAFB;
+  --text-muted:    #9CA3AF;
+  --border:        #1F2937;
+
+  --green:         #22C55E;
+  --red:           #EF4444;
+  --orange:        #F59E0B;
+
+  --gradient:      linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);
+
+  --glow-primary:  0 0 20px rgba(124,58,237,0.4);
+  --glow-pink:     0 0 20px rgba(236,72,153,0.4);
+  --glow-cyan:     0 0 14px rgba(34,211,238,0.4);
+  --glow-green:    0 0 14px rgba(34,197,94,0.4);
+
+  --input-bg:      #08101e;
+  --select-bg:     #0d1424;
+  --select-text:   #F9FAFB;
+  --select-border: #1F2937;
+
+  /* dark-only UI atoms */
+  --example-bg:       rgba(8,16,30,0.8);
+  --example-title:    var(--cyan);
+  --code-bg:          #060a13;
+  --hint-content-bg:  rgba(8,14,26,0.4);
+  --test-bg:          rgba(8,14,26,0.6);
+  --modal-input-bg:   rgba(8,14,26,0.8);
+  --chat-input-bg:    rgba(8,14,26,0.8);
+  --header-bg:        rgba(10,14,26,0.92);
+  --body-gradient-a:  rgba(124,58,237,0.15);
+  --body-gradient-b:  rgba(59,130,246,0.10);
+  --grid-line:        rgba(124,58,237,0.04);
+
+  --sidebar-w:     72px;
+  --header-h:      64px;
+  --right-sidebar-w: 200px;
+
+  --transition-fast: 160ms ease;
+  --transition-med:  280ms ease;
+  --transition-slow: 420ms ease;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+/* ── LIGHT THEME ── */
+[data-theme="light"] {
+  --bg:            #f2ede8;
+  --bg-sidebar:    #e8e2db;
+  --card:          #faf7f3;
+  --panel:         #ede7e0;
+  --editor-bg:     #1e1e2e;
+
+  --primary:       #6d28d9;
+  --primary-hover: #7C3AED;
+  --pink:          #be185d;
+  --blue:          #1d4ed8;
+  --cyan:          #0369a1;
+
+  --text:          #1c1917;
+  --text-muted:    #57534e;
+  --border:        #ccc5bb;
+
+  --green:         #15803d;
+  --red:           #b91c1c;
+  --orange:        #c2410c;
+
+  --gradient:      linear-gradient(135deg, #6d28d9 0%, #be185d 100%);
+
+  --glow-primary:  0 0 12px rgba(109,40,217,0.15);
+  --glow-pink:     0 0 12px rgba(190,24,93,0.15);
+  --glow-cyan:     0 0 8px rgba(3,105,161,0.15);
+  --glow-green:    0 0 8px rgba(21,128,61,0.15);
+
+  --input-bg:      #e8e2db;
+  --select-bg:     #e8e2db;
+  --select-text:   #1c1917;
+  --select-border: #b8b0a6;
+
+  /* light-only UI atoms */
+  --example-bg:       #e4ddd6;
+  --example-title:    #0369a1;
+  --code-bg:          #1e1e2e;
+  --hint-content-bg:  #e4ddd6;
+  --test-bg:          #e8e2db;
+  --modal-input-bg:   #e8e2db;
+  --chat-input-bg:    #e8e2db;
+  --header-bg:        rgba(232,226,219,0.96);
+  --body-gradient-a:  rgba(109,40,217,0.06);
+  --body-gradient-b:  rgba(29,78,216,0.04);
+  --grid-line:        rgba(109,40,217,0.025);
+
+  --sidebar-w:     72px;
+  --header-h:      64px;
+  --right-sidebar-w: 200px;
+
+  --transition-fast: 160ms ease;
+  --transition-med:  280ms ease;
+  --transition-slow: 420ms ease;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+}
+
+/* ── DENSITY ── */
+[data-density="compact"] {
+  --spacing-xs: 2px; --spacing-sm: 6px;
+  --spacing-md: 10px; --spacing-lg: 16px;
+  --header-h: 52px;
+}
+[data-density="spacious"] {
+  --spacing-xs: 6px; --spacing-sm: 12px;
+  --spacing-md: 22px; --spacing-lg: 32px;
+  --header-h: 72px;
+}
